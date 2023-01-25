@@ -1,5 +1,5 @@
 /* package codechef; // don't place package name! */
-
+/* https://www.codechef.com/LRNDSA02/problems/STFOOD */
 import java.util.*;
 import java.lang.*;
 import java.io.*;
