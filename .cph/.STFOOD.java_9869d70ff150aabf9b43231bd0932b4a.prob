@@ -1,0 +1,1 @@
+{"name":"Local: STFOOD","url":"c:\\Users\\Shivam\\100daysofCC\\STFOOD.java","tests":[{"id":1674659695931,"input":"2\n3\n4 6 8\n2 6 6\n1 4 3\n1\n7 7 4","output":"12\n0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Shivam\\100daysofCC\\STFOOD.java","group":"local","local":true}
