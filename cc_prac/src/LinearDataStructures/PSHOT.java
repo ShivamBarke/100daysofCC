@@ -2,6 +2,7 @@ package LinearDataStructures;
 import java.util.*;
 import java.lang.*;
 import java.io.*;
+//https://www.codechef.com/problems/PSHOT
 public class PSHOT {
     public static void main (String[] args) throws java.lang.Exception
 	{
@@ -10,7 +11,7 @@ public class PSHOT {
 	        int T = input.nextInt();
             for(int x=1;x<=T;x++){
                 int n = input.nextInt();
-                String s = input.next();
+                String s = input.next(); //dont take input as int as leading zeros will not be considered
                 
                 int g_a = 0;
                 int g_b = 0;
