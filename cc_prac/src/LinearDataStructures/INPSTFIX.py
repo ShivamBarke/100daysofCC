@@ -1,3 +1,4 @@
+#https://www.codechef.com/LRNDSA02/problems/INPSTFIX
 for _ in range(int(input())):
     n = int(input())
     A = input().rstrip()
