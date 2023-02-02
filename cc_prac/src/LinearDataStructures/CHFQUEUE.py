@@ -33,9 +33,9 @@ fear = 1
 
 for i in range(n):
     while len(stack)>0 and A[stack[-1]]>A[i]:
-        fear = fear*(i-stack[-1]+1)
+        fear = (fear*(i-stack[-1]+1)) % mod
         stack.pop()
 
     stack.append(i)
 
-print(fear%mod)
+print(fear)
