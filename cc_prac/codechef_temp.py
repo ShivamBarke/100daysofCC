@@ -23,18 +23,15 @@ def total(iterable):
     return fsum(iterable)
 
 
-def binary_search(A,low,high,key): #needs a sorted array and binary_search(Array_name, first_index, last_index, element_to_be_found)
-    if (low>high):
-        if(A[low]==key):
-            return low
-        else:    
-            return 'Element not found'
-    else:
+def binary_search(A,low,high, key): #needs a sorted array and binary_search(Array_name, first_index, last_index, element_to_be_found)
+
+    while(low<=high):
         mid = (low+high)//2
-        if(key==A[mid]):
+        if key==A[mid]:
             return mid
-        elif (key<A[mid]):
-            return binary_search(A, low, mid-1, key)
+        elif key>A[mid]:
+            low = mid+1
         else:
-            return binary_search(A, mid+1, high, key)
-    
+            high=mid-1
+    return 'Element not Found'
+
